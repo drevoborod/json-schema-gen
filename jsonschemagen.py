@@ -2,6 +2,11 @@
 
 """
 Tool for creating JSON schema from JSON. Input and output are files.
+Requires module "genson" to be installed (https://pypi.org/project/genson/).
+Should be run from command line.
+Required parameters:
+-i: input file path in JSON format. Defaults to "json.txt".
+-o: output file path. Defaults to "json_schema.txt" in current directory.
 """
 
 import argparse
